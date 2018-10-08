@@ -15,7 +15,7 @@ Body {
 	background-image: url(Kuvat/rainbow.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: auto;
+	background-size: cover;
 }
 
 .container {
