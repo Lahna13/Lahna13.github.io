@@ -152,6 +152,33 @@ p {
 	font-family: "Source Sans Pro";
 }
 
+.top_space {
+	width: 100%;
+	height: 150px;
+	padding-top: 150px;
+}
+
+.bottom_space {
+	width: 100%;
+	height: 150px;
+	padding-top: 150px;
+	padding-bottom: 125px;
+}
+
+.thumbnail {
+	width: 100px;
+	border-radius: 200px;
+	height: 100px;
+	margin-left: auto;
+}
+.thumbnail_align {
+	text-align: top, center;
+	float: left;
+	margin-bottom: 100px;
+	padding-bottom: 100px;
+	padding-left: 150px;
+}
+
 footer {
 	width: 100%;
 	padding-top: 25px;
