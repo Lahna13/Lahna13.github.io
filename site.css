@@ -2,8 +2,6 @@
 
 
 Body {
-	max-width: 100%;
-	max-width: 100%;
 	width: 100%;
 	height: 100%;
 	margin-left: auto;
@@ -110,7 +108,7 @@ a:hover {
 }
 
 .copyright {
-	text-align: left;
+	text-align: center;
 }
 
 .container_content h1 {
@@ -164,7 +162,7 @@ p {
 }
 
 .bottom_space {
-	width: 100%;
+	width: 50%;
 	height: 150px;
 	padding-top: 150px;
 	padding-bottom: 125px;
@@ -177,7 +175,7 @@ p {
 	margin-left: auto;
 }
 .thumbnail_align {
-	text-align: top, center;
+	text-align: center;
 	float: left;
 	margin-bottom: 100px;
 	padding-bottom: 100px;
