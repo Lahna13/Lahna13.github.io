@@ -72,6 +72,16 @@ button {
 	font-weight: bold;
 }
 
+button2 {
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 33px;
+	font-weight: bold;
+}
+
 a {
 	background-color: #db8e28;
     border: none;
