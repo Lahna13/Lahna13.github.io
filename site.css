@@ -72,16 +72,6 @@ button {
 	font-weight: bold;
 }
 
-button2 {
-    border: none;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 33px;
-	font-weight: bold;
-}
-
 a {
     border: none;
     color: white;
@@ -100,23 +90,6 @@ a:hover {
 
 .icons {
 	
-}
-
-a1 {
-	
-    border: none;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 33px;
-	font-weight: bold;
-	transition: all 0.2s linear;
-}
-
-a1:hover {
-	color: #000000;
-	cursor: pointer;
 }
 
 .container_topkuva {
