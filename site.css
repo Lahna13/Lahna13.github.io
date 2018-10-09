@@ -65,12 +65,28 @@ button {
 	background-color: #db8e28;
     border: none;
     color: white;
-    padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 33px;
 	font-weight: bold;
+}
+
+a {
+	background-color: #db8e28;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 33px;
+	font-weight: bold;
+	transition: all 0.2s linear;
+}
+
+a:hover {
+	color: #000000;
+	cursor: pointer;
 }
 
 .container_topkuva {
