@@ -9,13 +9,6 @@ Body {
 	border-bottom-width: 0px;
 	padding-left: 0px;
 	padding-right: 0px;
-	padding-top: 0px;
-	padding-bottom: 0px;
-	background-color: #FFFFFF;
-	background-image: url(Kuvat/rainbow.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
 }
 
 .container {
@@ -23,13 +16,20 @@ Body {
 	height: 100%;
 	margin-left: auto;
 	margin-right: auto;
+	background-color: #FFFFFF;
+	background-image: url(Kuvat/rainbow.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 
 .topvalikko {
 	width: 100%;
-	padding: 30px;
+	padding-top: 27px;
 	background-color: #db8e28;
-	padding-bottom: 50px;
+	padding-bottom: 60px;
+	border-bottom: solid 2px;
+	border-top: solid 2px;
 }
 
 .topvalikko ul {
@@ -105,10 +105,6 @@ a:hover {
 	font-size: 20px;
 }
 
-.copyright {
-	text-align: center;
-}
-
 .container_content h1 {
 	
 }
@@ -160,13 +156,15 @@ p {
 }
 
 .bottom_space {
-	width: 50%;
+	width: 100%;
 	height: 100px;
-	padding-top: 150px;
-	padding-bottom: 1px;
+	padding-top: 10px;
+	padding-bottom: 200px;
+	border-bottom: solid 2px;
 }
 
 .thumbnail {
+	border: #DB8E28 solid 2px;
 	width: 100px;
 	border-radius: 200px;
 	height: 100px;
@@ -186,5 +184,14 @@ footer {
 	padding-bottom: 25px;
 	background-color: #db8e28;
 	text-align: center;
+	border-bottom: solid 2px;
+}
+
+.copyright {
+	width: 100%;
+	height: 30px;
+	text-align: center;
+	font-weight: bold;
 	font-size: 20px;
+	
 }
