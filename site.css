@@ -161,9 +161,9 @@ p {
 
 .bottom_space {
 	width: 50%;
-	height: 150px;
+	height: 100px;
 	padding-top: 150px;
-	padding-bottom: 125px;
+	padding-bottom: 1px;
 }
 
 .thumbnail {
