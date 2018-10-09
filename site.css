@@ -165,16 +165,12 @@ p {
 
 .thumbnail {
 	border: #DB8E28 solid 2px;
-	width: 100px;
-	border-radius: 200px;
+	border-radius: 100px;
 	height: 100px;
-	margin-left: auto;
+	float: left;
 }
 .thumbnail_align {
-	text-align: center;
 	float: left;
-	margin-bottom: 100px;
-	padding-bottom: 100px;
 	padding-left: 8%;
 }
 
@@ -183,12 +179,11 @@ footer {
 	padding-top: 25px;
 	padding-bottom: 25px;
 	background-color: #db8e28;
-	text-align: center;
 	border-bottom: solid 2px;
 }
 
 .copyright {
-	width: 100%;
+	max-width: 100%;
 	height: 30px;
 	text-align: center;
 	font-weight: bold;
