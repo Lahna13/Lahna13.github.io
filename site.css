@@ -6,9 +6,13 @@ Body {
 	height: 100%;
 	margin-left: auto;
 	margin-right: auto;
-	border-bottom-width: 0px;
+	border-bottom: solid 2px;
+	border-top: solid 2px;
 	padding-left: 0px;
 	padding-right: 0px;
+	background-color: #db8e28;
+	margin-bottom: 0px;
+	margin-top: 0px;
 }
 
 .container {
@@ -16,7 +20,9 @@ Body {
 	height: 100%;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: #FFFFFF;
+	margin-top: auto;
+	margin-bottom: auto;
+	background-color: #db8e28;
 	background-image: url(Kuvat/rainbow.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -29,7 +35,6 @@ Body {
 	background-color: #db8e28;
 	padding-bottom: 60px;
 	border-bottom: solid 2px;
-	border-top: solid 2px;
 }
 
 .topvalikko ul {
@@ -160,7 +165,7 @@ p {
 	height: 100px;
 	padding-top: 10px;
 	padding-bottom: 200px;
-	border-bottom: solid 2px;
+	
 }
 
 .thumbnail {
@@ -177,9 +182,9 @@ p {
 footer {
 	width: 100%;
 	padding-top: 25px;
-	padding-bottom: 25px;
+	padding-bottom: 15px;
 	background-color: #db8e28;
-	border-bottom: solid 2px;
+	border-top: solid 2px;
 }
 
 .copyright {
