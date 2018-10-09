@@ -99,6 +99,23 @@ a:hover {
 	cursor: pointer;
 }
 
+a1 {
+	
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 33px;
+	font-weight: bold;
+	transition: all 0.2s linear;
+}
+
+a1:hover {
+	color: #000000;
+	cursor: pointer;
+}
+
 .container_topkuva {
 	max-width: 100%;
 	max-height: 100%;
