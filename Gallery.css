@@ -9,7 +9,6 @@ Body {
 	border-top: solid 2px;
 	padding-left: 0px;
 	padding-right: 0px;
-	background-color: #db8e28;
 	margin-bottom: 0px;
 	margin-top: 0px;
 }
@@ -21,8 +20,7 @@ Body {
 	margin-right: auto;
 	margin-top: auto;
 	margin-bottom: auto;
-	background-color: #db8e28;
-	background-image: url(Kuvat/rainbow.jpg);
+	background-image: url(Kuvat/world of warcraft background.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
