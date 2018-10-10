@@ -21,6 +21,10 @@ Body {
 	margin-top: auto;
 	margin-bottom: auto;
 	background-color: #000000;
+	background-image: url(Kuvat/Horde.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 
 .topvalikko {
