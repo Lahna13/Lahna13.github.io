@@ -48,7 +48,7 @@ Body {
 
 .topvalikko ul li {
 	float: left;
-	width: 20%;
+	width: 18%;
 	list-style: none;
 	letter-spacing: 1px;
 	font-size: 33px;
@@ -100,9 +100,10 @@ a:hover {
 
 .container_topkuva {
 	max-width: 100%;
-	padding-left: 7%;
-	float: left;
+	padding-left: 0%;
+	float: center;
 	width: 125px;
+	margin: auto;
 }
 
 .container_bottomvalikko {
