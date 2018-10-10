@@ -20,10 +20,7 @@ Body {
 	margin-right: auto;
 	margin-top: auto;
 	margin-bottom: auto;
-	background-image: url(Kuvat/world of warcraft background.png);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
+	background-color: #000000;
 }
 
 .topvalikko {
