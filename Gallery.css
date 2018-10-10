@@ -208,7 +208,8 @@ footer {
 }
 
 .column img {
-	max-height: 325px;
+	max-height: 25%;
+	max-width: 25%;
   	margin-top: 8px;
  	vertical-align: middle;
 }
