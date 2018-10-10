@@ -36,7 +36,8 @@ Body {
 	margin-right: auto;
 	margin-top: auto;
 	margin-bottom: auto;
-	background-color: #FFF;
+	padding: 0;
+	background-color: #000;
 }
 	
 .topvalikko {
@@ -104,8 +105,46 @@ a:hover {
 	cursor: pointer;
 }
 
-.icons {
-	
+.kuva_container {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 33px;
+	font-weight: bold;
+	transition: all 0.3s linear;
+}
+
+.video_container {
+    border: solid #000 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 33px;
+	font-weight: bold;
+	transition: all 0.3s linear;
+}
+
+.video_container:hover {
+	color: #db8e28;
+	cursor: pointer;
+	border: solid #db8e28 2px;
+}
+
+.column a {
+	border: none;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 33px;
+	font-weight: bold;
+	transition: all 0.3s linear;
+}
+
+.column a:hover {
+	color: #db8e28;
+	cursor: pointer;
 }
 
 .container_topkuva {
@@ -234,7 +273,6 @@ footer {
  	vertical-align: middle;
 }
 .column video {
-	border: solid #db8e28 2px;
 	max-height: 100%;
 	max-width: 100%;
   	margin-top: 8px;
