@@ -29,10 +29,12 @@ Body {
 }
 
 .topvalikko {
+	position: fixed;
+	top: 0;
 	width: 100%;
 	padding-top: 27px;
 	background-color: #db8e28;
-	padding-bottom: 60px;
+	padding-bottom: 10px;
 	border-bottom: solid 2px;
 }
 
