@@ -243,6 +243,9 @@ footer {
 	padding-bottom: 15px;
 	background-color: #db8e28;
 	border-top: solid 2px;
+	position: absolute;
+	height: 30px;
+	bottom: 0;
 }
 
 .copyright {
@@ -251,8 +254,6 @@ footer {
 	text-align: center;
 	font-weight: bold;
 	font-size: 20px;
-	position: absolute;
-	height: 30px;
 }
 
 .row {
