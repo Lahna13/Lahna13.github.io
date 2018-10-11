@@ -182,6 +182,7 @@ p {
 .thumbnail_align {
 	float: left;
 	padding-left: 8%;
+	position: relative;
 }
 
 footer {
