@@ -13,20 +13,20 @@ Body {
 	background-color: #db8e28;
 	margin-bottom: 0px;
 	margin-top: 0px;
+	background-image: url(Kuvat/rainbow.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 
 .container {
-	width: 100%;
+	width: 90%;
 	height: 100%;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: auto;
 	margin-bottom: auto;
-	background-color: #db8e28;
-	background-image: url(Kuvat/rainbow.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
+	
 }
 
 .topvalikko {
