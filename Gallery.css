@@ -27,34 +27,36 @@ Body {
 	padding-right: 0px;
 	margin-bottom: 0px;
 	margin-top: 0px;
+	background-color: #000;
 }
 
 .container {
-	width: 100%;
+	width: 90%;
 	height: 100%;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: auto;
 	margin-bottom: auto;
 	padding: 0;
-	background-color: #000;
 }
 	
 .topvalikko {
-	position: fixed;
 	top: 0;
+	position: absolute;
 	width: 100%;
 	padding-top: 27px;
-	background-color: #db8e28;
 	padding-bottom: 10px;
 	border-bottom: solid 2px;
+	background-color: #db8e28;
 }
 
 .topvalikko ul {
 	background-color: #db8e28;
-	width: 100%;
+	width: 80%;
 	float: none;
 	margin-top: 0;
+	margin-left: 10%;
+	
 }
 
 .topvalikko ul li {
@@ -63,14 +65,13 @@ Body {
 	list-style: none;
 	letter-spacing: 1px;
 	font-size: 33px;
-	font-family: "Source Sans Pro";
+	font-family: "wallpoet";
 	font-weight: bold;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
 	transition: all 0.2s linear;
 	color: #FFFFFF;
-	align-content: center;
 }
 
 .topvalikko ul li:hover {

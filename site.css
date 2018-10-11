@@ -31,7 +31,7 @@ Body {
 
 .topvalikko {
 	top: 0;
-	position: fixed;
+	position: absolute;
 	width: 100%;
 	padding-top: 27px;
 	padding-bottom: 10px;
@@ -41,9 +41,11 @@ Body {
 
 .topvalikko ul {
 	background-color: #db8e28;
-	width: 100%;
+	width: 80%;
 	float: none;
 	margin-top: 0;
+	margin-left: 10%;
+	
 }
 
 .topvalikko ul li {
@@ -59,7 +61,6 @@ Body {
 	margin-right: auto;
 	transition: all 0.2s linear;
 	color: #FFFFFF;
-
 }
 
 .topvalikko ul li:hover {
@@ -94,10 +95,6 @@ a:hover {
 	cursor: pointer;
 }
 
-.icons {
-	
-}
-
 .container_topkuva {
 	max-width: 100%;
 	padding-left: 0%;
@@ -111,10 +108,6 @@ a:hover {
 	background-color: #db8e28;
 	padding: 35px;
 	font-size: 20px;
-}
-
-.container_content h1 {
-	
 }
 
 .container_content {
