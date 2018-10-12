@@ -43,7 +43,6 @@ Body {
 .topvalikko {
 	top: 0;
 	width: 100%;
-	border-bottom: solid 2px;
 	background-color: #db8e28;
 	border-top: solid #000;
 	border-bottom: solid #000;
@@ -265,7 +264,8 @@ footer {
 	padding-top: 25px;
 	padding-bottom: 15px;
 	background-color: #db8e28;
-	border-top: solid 2px;
+	border-top: solid #000;
+	border-bottom: solid #000;
 }
 
 .copyright {
