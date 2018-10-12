@@ -196,8 +196,8 @@ footer {
 	padding-bottom: 15px;
 	background-color: #db8e28;
 	border-top: solid #000;
-	border-bottom: solid #000;
 	height: 30px;
+	position: absolute;
 }
 
 .copyright {
