@@ -26,17 +26,15 @@ Body {
 	margin-right: auto;
 	margin-top: auto;
 	margin-bottom: auto;
-	
 }
 
 .topvalikko {
 	top: 0;
-	position: absolute;
 	width: 100%;
 	border-bottom: solid 2px;
 	background-color: #db8e28;
-	height: 14%;
-	border: solid #000
+	border: solid #000;
+	height: 75px;
 }
 
 .topvalikko ul {
@@ -198,7 +196,6 @@ footer {
 	padding-bottom: 15px;
 	background-color: #db8e28;
 	border-top: solid 2px;
-	position: absolute;
 	height: 30px;
 }
 
