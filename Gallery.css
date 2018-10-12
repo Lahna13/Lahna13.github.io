@@ -44,39 +44,53 @@ Body {
 	top: 0;
 	position: absolute;
 	width: 100%;
-	padding-top: 27px;
-	padding-bottom: 10px;
 	border-bottom: solid 2px;
 	background-color: #db8e28;
+	height: 14.7%;
+	border: solid #000;
 }
 
 .topvalikko ul {
 	background-color: #db8e28;
 	width: 80%;
-	float: none;
 	margin-top: 0;
 	margin-left: 10%;
-	
+	padding: 0;
+	float: left;
 }
 
 .topvalikko ul li {
+	display: inline-block;
 	float: left;
 	width: 18%;
 	list-style: none;
 	letter-spacing: 1px;
-	font-size: 33px;
 	font-family: "wallpoet";
-	font-weight: bold;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
 	transition: all 0.2s linear;
 	color: #FFFFFF;
+	position: bottom;
+	vertical-align: bottom;
+	line-height: 75px;
 }
 
 .topvalikko ul li:hover {
 	color: #000000;
 	cursor: pointer;
+}
+
+.topvalikko ul li img {
+	vertical-align: middle;
+}
+
+.topvalikko ul li a {
+	vertical-align: middle;
+}
+
+.topvalikko ul li button {
+	vertical-align: middle;
 }
 
 button {
@@ -94,7 +108,7 @@ a {
     border: none;
     color: white;
     text-align: center;
-    text-decoration: none;
+	text-decoration: none;
     display: inline-block;
     font-size: 33px;
 	font-weight: bold;
@@ -104,6 +118,14 @@ a {
 a:hover {
 	color: #000000;
 	cursor: pointer;
+}
+
+.container_topkuva {
+	max-width: 100%;
+	padding-left: 0%;
+	width: 125px;
+	margin: auto;
+	padding-top: 1px;
 }
 
 .kuva_container {
