@@ -1,21 +1,6 @@
 @charset "utf-8";
 
 
-/* Pienimmät näytöt, 600px and down) */
-/*@media only screen and (max-width: 600px)
-
-/* Pienet näytöt, 600px and up */
-/*@media only screen and (min-width: 600px)
-
-/* Keskikokoset näytöt, 768px and up */
-/*@media only screen and (min-width: 768px)
-
-/* Isot näytöt, 992px and up */
-/*@media only screen and (min-width: 992px)
-
-/* Suurimmat näytöt, 1200px and up */
-/*@media only screen and (min-width: 1200px)*/
-
 Body {
 	width: 100%;
 	height: 100%;
@@ -25,9 +10,13 @@ Body {
 	border-top: solid 2px;
 	padding-left: 0px;
 	padding-right: 0px;
+	background-color: #db8e28;
 	margin-bottom: 0px;
 	margin-top: 0px;
-	background-color: #000;
+	background-image: url(Kuvat/rainbow.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 
 .container {
@@ -37,17 +26,15 @@ Body {
 	margin-right: auto;
 	margin-top: auto;
 	margin-bottom: auto;
-	padding: 0;
 }
-	
+
 .topvalikko {
 	top: 0;
 	width: 100%;
 	border-bottom: solid 2px;
 	background-color: #db8e28;
-	border-top: solid #000;
-	border-bottom: solid #000;
-	height: 81px;
+	border: solid #000;
+	height: 75px;
 }
 
 .topvalikko ul {
@@ -124,58 +111,8 @@ a:hover {
 	max-width: 100%;
 	padding-left: 0%;
 	width: 125px;
-	margin: top;
-	padding-top: 1px;
-}
-
-.kuva_container {
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 33px;
-	font-weight: bold;
-	transition: all 0.3s linear;
-}
-
-.video_container {
-    border: solid #000 2px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 33px;
-	font-weight: bold;
-	transition: all 0.3s linear;
-}
-
-.video_container:hover {
-	color: #db8e28;
-	cursor: pointer;
-	border: solid #db8e28 2px;
-}
-
-.column a {
-	border: none;
-    color: #000;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 33px;
-	font-weight: bold;
-	transition: all 0.3s linear;
-}
-
-.column a:hover {
-	color: #db8e28;
-	cursor: pointer;
-}
-
-.container_topkuva {
-	max-width: 100%;
-	padding-left: 0%;
-	float: center;
-	width: 125px;
 	margin: auto;
+	padding-top: 1px;
 }
 
 .container_bottomvalikko {
@@ -184,7 +121,6 @@ a:hover {
 	padding: 35px;
 	font-size: 20px;
 }
-
 
 .container_content {
 	margin: 0;
@@ -203,6 +139,7 @@ a:hover {
 	max-height: 100%;
 	max-width: 100%;
 	float: none;
+	position: relative;
 }
 
 h1 {
@@ -212,6 +149,7 @@ h1 {
 	color: #FFFFFF;
 	font-weight: bold;
 	text-transform: uppercase;
+	font-family: 'black-ops-one';
 }
 	
 p {
@@ -223,21 +161,12 @@ p {
 	margin-bottom: 15px;
 	color: #FFFFFF;
 	font-size: 20px;
-	font-family: "Source Sans Pro";
-}
-
-.gallery_header {
-	text-align: center;
-	margin: 0;
-	font-size: 30px;
-	padding-top: 65px;
-	font-family: "source sans pro";
-	font-weight: bold;
+	font-family: 'black-ops-one';
 }
 
 .top_space {
 	width: 100%;
-	height: 200px;
+	height: 150px;
 	padding-top: 75px;
 }
 
@@ -258,6 +187,7 @@ p {
 .thumbnail_align {
 	float: left;
 	padding-left: 8%;
+	position: static;
 }
 
 footer {
@@ -266,6 +196,8 @@ footer {
 	padding-bottom: 15px;
 	background-color: #db8e28;
 	border-top: solid 2px;
+	height: 30px;
+	position: static;
 }
 
 .copyright {
@@ -274,80 +206,12 @@ footer {
 	text-align: center;
 	font-weight: bold;
 	font-size: 20px;
-	background-color: #DB8E28;
-	padding-bottom: 20px;
-	position: relative;
 }
 
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
+.TestTabStealth {
+	color: #000;
 }
 
-/* Create two equal columns that sits next to each other */
-.column {
-  width: 33%;
-  padding: 0 4px;
-}
-
-.column img {
-	border: solid 2px;
-	max-height: 100%;
-	max-width: 100%;
-  	margin-top: 8px;
- 	vertical-align: middle;
-}
-.column video {
-	max-height: 100%;
-	max-width: 100%;
-  	margin-top: 8px;
- 	vertical-align: middle;
-}
-
-* {
-    box-sizing: border-box;
-}
-/*
-body {
-    margin: 0;
-}
-
-.header {
-    text-align: center;
-    padding: 32px;
-}
-
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
-}
-
-/* Create four equal columns that sits next to each other */
-/*.column {
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 4px;
-}
-
-.column img {
-    margin-top: 8px;
-    vertical-align: middle;
-}
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-/*@media (max-width: 800px) {
-    .column {
-        flex: 50%;
-        max-width: 50%;
-    }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-/*@media (max-width: 600px) {
-    .column {
-        flex: 100%;
-        max-width: 100%;
-    }
+.TestTabStealth:hover {
+	color: #00FF24;
 }

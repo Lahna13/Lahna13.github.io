@@ -33,7 +33,8 @@ Body {
 	width: 100%;
 	border-bottom: solid 2px;
 	background-color: #db8e28;
-	border: solid #000;
+	border-top: solid #000;
+	border-bottom: solid #000;
 	height: 75px;
 }
 
