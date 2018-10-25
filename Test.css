@@ -25,7 +25,7 @@ header {
 	background-color: #1B1B1B;
 	heigth: 10%;
 	margin: 0%;
-	padding: 25px;
+	padding-bottom: 4%;
 }
 
 .logo {
@@ -34,6 +34,7 @@ header {
 	font-size: 75px;
 	width: 75%;
 	color: #000;
+	margin-top: 1%;
 }
 
 .navbar {
@@ -68,7 +69,7 @@ header {
 }
 
 .java {
-	margin-top: 2%;
+	margin-top: 3%;
 	padding: 0;
 	height: 30%;
 	margin-left: 5%;
@@ -84,7 +85,7 @@ header {
 .yhteystiedot {
 	float: left;
 	width: 20%;
-	height: 90%;
+	height: 100%;
 	margin-right: 15%;
 	letter-spacing: 1px;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"
@@ -106,7 +107,7 @@ header {
 .tietoa {
 	float: left;
 	width: 35%;
-	height: 90%;
+	height: 100%;
 	margin-right: 15%;
 	margin-left: 15%;
 	letter-spacing: 1px;
