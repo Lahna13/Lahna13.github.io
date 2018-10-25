@@ -4,6 +4,10 @@ body {
 	margin: 0px;
 	padding: 0px;
 	background-color: #FFF;
+	background-image: url(Kuvat/board_black_line_texture_background_wood_55220_2560x1440.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 
 /*
