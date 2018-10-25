@@ -22,7 +22,7 @@ header {
 }
 
 .blackbar {
-	background-color: #5B5B5B;
+	background-color: #1B1B1B;
 	heigth: 10%;
 	margin: 0%;
 	padding: 25px;
@@ -33,7 +33,7 @@ header {
 	font-weight: 200;
 	font-size: 75px;
 	width: 85%;
-	color: Gold;
+	color: #000;
 }
 
 .navbar {
@@ -119,13 +119,16 @@ footer {
 }
 
 .graybar {
-	background-color: #5B5B5B;
+	background-color: #1B1B1B;
 	padding: 50px;
 }
 
 .copyright_container {
-	background-color: #3E3E3E;
+	background-color: #000;
 	padding-top: 25px;
+	color: #FFF;
+	font-size: 12px;
+	letter-spacing: 1px;
 }
 
 .copyright {
