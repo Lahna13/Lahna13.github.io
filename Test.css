@@ -12,6 +12,34 @@ body {
 	margin-right: auto;
 }
 
+.container:before {
+	display: block;
+    -webkit-box-shadow: -20px 0 24px -24px inset;
+    -moz-box-shadow: -20px 0 24px -24px inset;
+    box-shadow: -20px 0 24px -24px inset;
+    content: " ";
+    height: 100%;
+    left: -15px;
+    position: absolute;
+    top: 0;
+    width: 15px;
+    z-index: 2000;
+}
+
+.container:after {
+	display: block;
+    -webkit-box-shadow: 20px 0 24px -24px inset;
+    -moz-box-shadow: 20px 0 24px -24px inset;
+    box-shadow: 20px 0 24px -24px inset;
+    content: " ";
+    height: 100%;
+    position: absolute;
+    right: -13px;
+    top: 0;
+    width: 15px;
+    z-index: 2000;
+}
+
 header {
 	vertical-align: middle;
 	align-items: middle;
