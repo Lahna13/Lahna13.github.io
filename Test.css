@@ -6,16 +6,7 @@ body {
 	background-color: #FFF;
 }
 
-.container {
-	width: 80%;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.container:before {
-	display: block;
-    -webkit-box-shadow: -20px 0 24px -24px inset;
-    -moz-box-shadow: -20px 0 24px -24px inset;
+/*
     box-shadow: -20px 0 24px -24px inset;
     content: " ";
     height: 100%;
@@ -24,20 +15,13 @@ body {
     top: 0;
     width: 15px;
     z-index: 2000;
-}
+*/
 
-.container:after {
-	display: block;
-    -webkit-box-shadow: 20px 0 24px -24px inset;
-    -moz-box-shadow: 20px 0 24px -24px inset;
-    box-shadow: 20px 0 24px -24px inset;
-    content: " ";
-    height: 100%;
-    position: absolute;
-    right: -13px;
-    top: 0;
-    width: 15px;
-    z-index: 2000;
+.container {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 header {
