@@ -75,6 +75,23 @@ header {
 	margin-right: 5%;
 }
 
+#slideshow { 
+    margin: 50px auto; 
+    position: relative; 
+    width: 100%;
+    height: 550px; 
+    padding: 10px; 
+    box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+}
+
+#slideshow > div { 
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+    right: 10px; 
+    bottom: 10px; 
+}
+
 .main {
 	padding-top: 2%;
 	width: 100%;
@@ -121,12 +138,12 @@ footer {
 }
 
 .graybar {
-	background-color: #1B1B1B;
+	background-color: #181616;
 	padding: 50px;
 }
 
 .copyright_container {
-	background-color: #000;
+	background-color: #160A0A;
 	padding-top: 25px;
 	color: #FFF;
 	font-size: 12px;
