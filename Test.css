@@ -4,10 +4,7 @@ body {
 	margin: 0px;
 	padding: 0px;
 	background-color: #FFF;
-	background-image: url(Kuvat/board_black_line_texture_background_wood_55220_2560x1440.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
+	
 }
 
 /*
@@ -112,6 +109,7 @@ img {
 	padding-top: 4%;
 	width: 100%;
 	height: 500px;
+	overflow-x: hidden;
 }
 
 .yhteystiedot {
@@ -160,7 +158,6 @@ img {
 	padding-left: 3%;
 	padding-right: 3%;
 	padding-top: 1%;
-	overflow-x: hidden;
 
 }
 
