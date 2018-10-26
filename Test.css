@@ -189,9 +189,10 @@ footer {
 
 .graybar {
 	background-color: #181616;
-	padding-top: 3%;
-	padding-bottom: 15%;
+	padding-top: 1%;
+	padding-bottom: 3%;
 	border-top: 2px thin Gold;
+	height: auto;
 }
 
 .graybarinfo {
@@ -201,9 +202,11 @@ footer {
 }
 
 .collumn_container {
-	width: 15%;
-	height: 30%;
-	float: left;
+	padding-left: 3%;
+	padding-right: 3%;
+	width: auto;
+	height: auto;
+	display: inline-block;
 	text-align: center;
 }
 
@@ -218,11 +221,11 @@ footer {
 }
 
 .collumn h3 {
-	font-size: bold;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
 }
 
 .collumn_logo {
+	margin-bottom: 15%;
 	font-size: 75px;
 }
 
