@@ -28,6 +28,7 @@ body {
 	margin-right: auto;
 	box-shadow: 0 0px 0px 0px white, 0 -0px 0px 0px white, 15px 0 20px -6px #5B5B5B, -15px 0 20px -4px #5B5B5B;
 	padding-bottom: 7%;
+	background-color: white;
 }
 
 header {
