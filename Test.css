@@ -130,14 +130,12 @@ img {
 }
 
 .yhteystiedot h3 {
-	color: #FFB404;
-	margin-bottom: 24%;
+	color: #FFB404; 
 }
 
 .yhteystiedot p {
 	color: white;
-	height: 10%;
-	font-size: 20px;
+	height: 80%;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"
 }
 
@@ -159,6 +157,7 @@ img {
 	padding-left: 3%;
 	padding-right: 3%;
 	padding-top: 1%;
+	
 }
 
 .tietoa h3 {
@@ -166,9 +165,10 @@ img {
 }
 
 .tietoa p {
-	font-size: 20px;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	margin-bottom: 5%;
+	word-wrap: break-word;
+	height: 80%;
 }
 
 footer {
