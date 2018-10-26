@@ -111,7 +111,7 @@ img {
 .main {
 	padding-top: 4%;
 	width: 100%;
-	height: 450px;
+	height: 500px;
 }
 
 .yhteystiedot {
@@ -167,7 +167,8 @@ img {
 
 .tietoa p {
 	font-size: 20px;
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	margin-bottom: 5%;
 }
 
 footer {
@@ -208,7 +209,7 @@ footer {
 
 /* Slideshow container */
 .slideshow-container {
-	max-height: 550px;
+	max-height: 600px;
  	position: relative;
  	margin: auto;
 }
@@ -246,7 +247,7 @@ footer {
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
+  color: #000;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
@@ -257,7 +258,7 @@ footer {
 
 /* Number text (1/3 etc) */
 .numbertext {
-  color: #f2f2f2;
+  color: #000;
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
