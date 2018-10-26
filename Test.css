@@ -160,6 +160,8 @@ img {
 	padding-left: 3%;
 	padding-right: 3%;
 	padding-top: 1%;
+	overflow-x: hidden;
+
 }
 
 .tietoa h3 {
@@ -178,6 +180,7 @@ img {
 	background-color: #5B5B5B;
 	border-radius: 25px;
 	padding: 5%;
+	
 }
 
 footer {
