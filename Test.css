@@ -115,11 +115,9 @@ img {
 }
 
 .yhteystiedot {
-	border-radius: 25px;
 	padding-left: 3%;
 	padding-right: 3%;
 	padding-top: 1%;
-	background-color: #5B5B5B;
 	color: white;
 	float: left;
 	width: 22%;
@@ -130,13 +128,20 @@ img {
 }
 
 .yhteystiedot h3 {
+	text-align: center;
+	background-color: #5B5B5B;
+	border-radius: 25px;
+	padding: 3%;
 	color: #FFB404; 
 }
 
 .yhteystiedot p {
 	color: white;
-	height: 80%;
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"
+	height: auto;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	background-color: #5B5B5B;
+	border-radius: 25px;
+	padding: 5%;
 }
 
 .kuvatsivussa {
@@ -145,7 +150,6 @@ img {
 }
 
 .tietoa {
-	background-color: #5B5B5B;
 	color: white;
 	float: left;
 	width: 35%;
@@ -153,14 +157,16 @@ img {
 	margin-right: 10%;
 	margin-left: 15%;
 	letter-spacing: 1px;
-	border-radius: 25px;
 	padding-left: 3%;
 	padding-right: 3%;
 	padding-top: 1%;
-	
 }
 
 .tietoa h3 {
+	text-align: center;
+	background-color: #5B5B5B;
+	border-radius: 25px;
+	padding: 3%;
 	color: #FFB404;
 }
 
@@ -168,7 +174,10 @@ img {
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	margin-bottom: 5%;
 	word-wrap: break-word;
-	height: 80%;
+	height: auto;
+	background-color: #5B5B5B;
+	border-radius: 25px;
+	padding: 5%;
 }
 
 footer {
