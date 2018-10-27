@@ -47,7 +47,7 @@ header {
 }
 
 .logo {
-	padding-left: 25%;
+	padding-left: 20%;
 	font-weight: 200;
 	font-size: 75px;
 	width: 80%;
@@ -60,7 +60,7 @@ header {
 .sublogotext {
 	width: 80%;
 	margin-left: 10%;
-	padding-left: 30%;
+	padding-left: 25%;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
 	color: #12c47f;
 	background-color: #2B2B28;
