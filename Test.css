@@ -3,7 +3,7 @@
 body {
 	margin: 0px;
 	padding: 0px;
-	background-color: #FFF;
+	background-color: #085d3c;
 	
 }
 
@@ -26,6 +26,8 @@ body {
 	box-shadow: 0 0px 0px 0px white, 0 -0px 0px 0px white, 15px 0 20px -6px #5B5B5B, -15px 0 20px -4px #5B5B5B;
 	padding-bottom: 7%;
 	background-color: white;
+	border-top: 1px solid #085d3c;
+	border-bottom: 1px solid #085d3c;
 }
 
 header {
@@ -48,17 +50,19 @@ header {
 	padding-left: 25%;
 	font-weight: 200;
 	font-size: 75px;
-	width: 100%;
-	color: #FFB404;
-	background-color: #494944;
+	width: 80%;
+	color: #2B2B28;
+	background-color: #085d3c;
 	margin-top: 0%;
+	margin-left: 10%;
 }
 
 .sublogotext {
-	width: 100%;
+	width: 80%;
+	margin-left: 10%;
 	padding-left: 30%;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
-	color: #FFB404;
+	color: #12c47f;
 	background-color: #2B2B28;
 	padding-bottom: 2px;
 }
@@ -130,7 +134,7 @@ img {
 	background-color: #5B5B5B;
 	border-radius: 25px;
 	padding: 3%;
-	color: #FFB404; 
+	color: #12c47f; 
 }
 
 .yhteystiedot p {
@@ -166,7 +170,7 @@ img {
 	background-color: #5B5B5B;
 	border-radius: 25px;
 	padding: 3%;
-	color: #FFB404;
+	color: #12c47f; 
 }
 
 .tietoa p {
