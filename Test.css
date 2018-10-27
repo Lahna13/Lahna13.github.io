@@ -462,3 +462,7 @@ footer {
   from {opacity: .4} 
   to {opacity: 1}
 }
+
+.slideshow-container img {
+	border: solid 2px;
+}
