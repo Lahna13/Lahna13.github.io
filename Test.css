@@ -298,14 +298,24 @@ footer {
 	background-color: #181616;
 	padding-top: 1%;
 	padding-bottom: 3%;
-	border-top: 2px thin Gold;
 	height: auto;
 }
 
 .graybarinfo {
 	color: #FFF;
 	width: 75%;
-	margin-left: 25%; 
+	margin-left: 25%;
+}
+
+
+.icon_bar {
+	width: 1.5%;
+	height: 100%;
+	display: inline-block;
+}
+
+.icon_bar img {
+	width: 100%;
 }
 
 .collumn_container {
@@ -315,6 +325,7 @@ footer {
 	height: auto;
 	display: inline-block;
 	text-align: center;
+	
 }
 
 .collumn {
@@ -324,7 +335,11 @@ footer {
 
 .collumn p {
 	width: 100%;
-	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+#posti:before {
+	content: "\f003";
 }
 
 .collumn h3 {
