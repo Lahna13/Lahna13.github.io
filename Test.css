@@ -3,8 +3,8 @@
 body {
 	margin: 0px;
 	padding: 0px;
-	background-color: #085d3c;
-	
+	background-color: #FFF;
+	background-image: 
 }
 
 /*
@@ -23,11 +23,11 @@ body {
 	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
-	box-shadow: 0 0px 0px 0px white, 0 -0px 0px 0px white, 15px 0 20px -6px #5B5B5B, -15px 0 20px -4px #5B5B5B;
+	/*box-shadow: 0 0px 0px 0px white, 0 -0px 0px 0px white, 15px 0 20px -6px #5B5B5B, -15px 0 20px -4px #5B5B5B;*/
 	padding-bottom: 7%;
 	background-color: white;
-	border-top: 1px solid #085d3c;
-	border-bottom: 1px solid #085d3c;
+	border-right: solid 5px #2B2B28;
+	border-left: solid 5px #2B2B28;
 }
 
 header {
@@ -40,31 +40,32 @@ header {
 }
 
 .blackbar {
-	background-color: #1B1B1B;
-	heigth: 10%;
+	background-color: #2B2B28;
+	heigth: 100%;
 	margin: 0%;
-	padding-bottom: 4%;
+	padding-bottom: 3%;
 }
 
 .logo {
-	padding-left: 17%;
+	padding-left: 0;
 	font-weight: 200;
 	font-size: 75px;
-	width: 80%;
-	color: #2B2B28;
-	background-color: #085d3c;
+	width: 100%;
+	color: white;
+	background-color: #2B2B28;
 	margin-top: 0%;
-	margin-left: 10%;
+	margin-left: 0%;
+	text-align: center;
 }
 
 .sublogotext {
-	width: 80%;
-	margin-left: 10%;
-	padding-left: 18.2%;
+	width: 100%;
+	margin-left: 0%;
+	padding-left: 0;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
-	color: #12c47f;
+	color: white;
 	background-color: #2B2B28;
-	padding-bottom: 2px;
+	text-align: center;
 }
 
 .navbar {
@@ -119,7 +120,7 @@ img {
 .main_row {
 	width: 100%;
 	color: #12c47f;
-	background-color: #2B2B28;
+	background-color: #3B3B38;
 	height: auto;
 	padding-top: 2%;
 	padding-bottom: 2%;
@@ -176,7 +177,7 @@ img {
 .main_row_right {
 	width: 100%;
 	color: #12c47f;
-	background-color: #2B2B28;
+	background-color: #3B3B38;
 	height: auto;
 	padding-top: 2%;
 	padding-bottom: 2%;
@@ -295,7 +296,7 @@ footer {
 }
 
 .graybar {
-	background-color: #181616;
+	background-color: #2B2B28;
 	padding-top: 1%;
 	padding-bottom: 3%;
 	height: auto;
@@ -464,5 +465,6 @@ footer {
 }
 
 .slideshow-container img {
-	border: solid 2px;
+	border: groove 2px;
+	box-shadow: 0 10px 14px 0 gray, 0 12px 26px 0 gray;
 }
