@@ -483,8 +483,8 @@ footer {
 	}
 
 .flip-container, .front, .back {
-	width: auto;
-	height:  auto;
+	width: 350;
+	height: 400;
 }
 
 /* flip speed goes here */
