@@ -4,7 +4,6 @@ body {
 	margin: 0px;
 	padding: 0px;
 	background-color: #FFF;
-	background-image: 
 }
 
 /*
@@ -24,7 +23,7 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	/*box-shadow: 0 0px 0px 0px white, 0 -0px 0px 0px white, 15px 0 20px -6px #5B5B5B, -15px 0 20px -4px #5B5B5B;*/
-	padding-bottom: 7%;
+	padding-bottom: 2%;
 	background-color: white;
 	border-right: solid 5px #2B2B28;
 	border-left: solid 5px #2B2B28;
@@ -111,16 +110,17 @@ img {
 }
 
 .main {
-	padding-top: 4%;
+	margin-top: 4%;
 	width: 100%;
-	height: 500px;
-	overflow-x: hidden;
+	height: 750px;
+	/*height: 500px;
+	overflow-x: hidden;*/
 }
 
 .main_row {
 	width: 100%;
-	color: #12c47f;
-	background-color: #3B3B38;
+	color: #edd2a4;
+	background-color: #2B2B28;
 	height: auto;
 	padding-top: 2%;
 	padding-bottom: 2%;
@@ -162,22 +162,25 @@ img {
 .main_row img {
 	width: 100%;
 	height: auto;
+	position: center;
+	margin-top: 11%;
 }
 
 .main_row_right img {
 	width: 100%;
 	height: auto;
+	margin-top: 11%;
 }
 
 .space2 {
 	width: 100%;
-	height: 130%;
+	height: 50%;
 }
 
 .main_row_right {
 	width: 100%;
-	color: #12c47f;
-	background-color: #3B3B38;
+	color: #edd2a4;
+	background-color: #2B2B28;
 	height: auto;
 	padding-top: 2%;
 	padding-bottom: 2%;
@@ -238,7 +241,7 @@ img {
 	background-color: #5B5B5B;
 	border-radius: 25px;
 	padding: 3%;
-	color: #12c47f; 
+	color: #edd2a4 ; 
 }
 
 .yhteystiedot p {
@@ -274,7 +277,7 @@ img {
 	background-color: #5B5B5B;
 	border-radius: 25px;
 	padding: 3%;
-	color: #12c47f; 
+	color: #edd2a4; 
 }
 
 .tietoa p {

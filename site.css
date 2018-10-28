@@ -19,7 +19,7 @@ Body {
 	background-size: cover;
 }
 
-.container {
+#container {
 	width: 90%;
 	height: 100%;
 	margin-left: auto;
@@ -27,6 +27,21 @@ Body {
 	margin-top: auto;
 	margin-bottom: auto;
 }
+
+#container:before {
+	display: block;
+    box-shadow: -20px 0 24px -24px inset;
+    box-shadow: -20px 0 24px -24px inset;
+    box-shadow: -20px 0 24px -24px inset;
+    content: " ";
+    height: 100%;
+    left: -15px;
+    position: absolute;
+    top: 0;
+    width: 15px;
+    z-index: 2000;
+}
+
 
 .topvalikko {
 	top: 0;
