@@ -236,3 +236,65 @@ footer {
 .TestTabStealth:hover {
 	color: #00FF24;
 }
+
+.card-height2: {
+	height: 281px;
+}
+.flip {
+	-webkit-perspective: 800;
+	perspective: 800;
+	position: relative;
+	cursor: pointer;
+}
+
+.flip .card.flipped {
+	-webkit-transform: rotatex(-180deg);
+	transform: rotatex(-180deg);
+	background: transparent;
+}
+
+.flip .card {
+	height: 195px;
+	-webkit-transform-style: preserve-3d;
+	-webkit-transition: 0.5s;
+	transform-style: preserve-3d;
+	transition: 0.5s;
+}
+
+.flip .card .face {
+	-webkit-backface-visibility: hidden ;
+	backface-visibility: hidden ;
+	z-index: 2;
+
+}
+
+.flip .card .front {
+	position: absolute;
+	width: 100%;
+	z-index: 1;
+	background: #2B5168;
+}
+
+.flip .card .back {
+	-webkit-transform: rotatex(-180deg);
+	transform: rotatex(-180deg);
+	padding-left: 5%;
+}
+
+.flip .card .back2 {
+	-webkit-transform: rotatex(-180deg);
+	transform: rotatex(-180deg);
+	padding-left: 5%;
+	padding-bottom: 13%;
+}
+
+.inner {
+	margin:0px 
+	!important;
+}
+
+div.card.card-1 {
+	height: 195px;
+	background: transparent;
+	background: #2B5168;
+}
