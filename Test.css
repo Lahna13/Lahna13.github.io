@@ -169,13 +169,15 @@ img {
 	width: 100%;
 	height: auto;
 	position: center;
-	margin-top: 11%;
+	margin-top: 50%;
+	margin-bottom: 50%;
 }
 
 .main_row_right img {
 	width: 100%;
 	height: auto;
-	margin-top: 11%;
+	margin-top: 50%;
+	margin-bottom: 50%;
 }
 
 .space2 {
