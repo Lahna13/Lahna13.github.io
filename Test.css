@@ -169,15 +169,15 @@ img {
 	width: 100%;
 	height: auto;
 	position: center;
-	margin-top: 50%;
-	margin-bottom: 50%;
+	margin-top: 0%;
+	margin-bottom: 0%;
 }
 
 .main_row_right img {
 	width: 100%;
 	height: auto;
-	margin-top: 50%;
-	margin-bottom: 50%;
+	margin-top: 0%;
+	margin-bottom: 0%;
 }
 
 .space2 {
@@ -493,8 +493,8 @@ footer {
 	}
 
 .flip-container, .front, .back {
-	width: 350;
-	height: 400;
+	width: 20vw;
+	height: 15vw;
 }
 
 /* flip speed goes here */
@@ -508,7 +508,6 @@ footer {
 /* hide back of pane during swap */
 .front, .back {
 	backface-visibility: hidden;
-
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -545,7 +544,7 @@ footer {
 		margin-top: 7.5%;
 		margin-bottom: 10%;
 		width: 100%;
-		height: 46vw;
+		height: 47.5vw;
 		/*height: 500px;
 		overflow-x: hidden;*/
 	}
