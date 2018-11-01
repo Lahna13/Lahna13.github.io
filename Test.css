@@ -309,6 +309,10 @@ footer {
 	letter-spacing: 1px;
 }
 
+.collumn_container:after {
+	
+}
+
 .copyright {
 	width: 100%;
 	margin-left: 0%;
