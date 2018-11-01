@@ -156,18 +156,18 @@ img {
 }
 
 .main_img_container {
-	width: 20vw;
-	height: 15vw;
+	width: 17.5vw;
+	height: 12.5vw;
 	float: left;
 	margin-left: 5%;
 	margin-right: 5%;
-	margin-top: auto;
-	margin-bottom: auto;
+	margin-top: 1.25%;
+	margin-bottom: 1.25%;
 }
 
 .main_row img {
-	width: 20vw;
-	height: 15vw;
+	width: 17.5vw;
+	height: 12.5vw;
 	margin-top: 0%;
 	margin-bottom: 0%;
 	margin-left: 0%;
@@ -175,8 +175,8 @@ img {
 }
 
 .main_row_right img {
-	width: 20vw;
-	height: 15vw;
+	width: 17.5vw;
+	height: 12.5vw;
 	margin-top: 0%;
 	margin-bottom: 0%;
 	margin-left: 0%;
@@ -221,13 +221,13 @@ img {
 }
 
 .main_img_container_right {
-	width: 20vw;
-	height: 15vw;
+	width: 17.5vw;
+	height: 12.5vw;
 	float: left;
 	margin-left: 5%;
 	margin-right: 5%;
-	margin-top: auto;
-	margin-bottom: auto;
+	margin-top: 1.25%;
+	margin-bottom: 1.25%;
 }
 
 footer {
@@ -424,8 +424,8 @@ footer {
 	}
 
 .flip-container, .front, .back {
-	width: 15vw;
-	height: 15vw;
+	width: 17.5vw;
+	height: 12.5vw;
 }
 
 /* flip speed goes here */
