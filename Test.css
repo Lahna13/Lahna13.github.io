@@ -156,28 +156,31 @@ img {
 }
 
 .main_img_container {
-	width: 15%;
-	height: auto;
+	width: 20vw;
+	height: 15vw;
 	float: left;
-	margin-left: 15%;
-	margin-right: 10%;
+	margin-left: 5%;
+	margin-right: 5%;
 	margin-top: auto;
 	margin-bottom: auto;
 }
 
 .main_row img {
-	width: 100%;
-	height: auto;
-	position: center;
+	width: 20vw;
+	height: 15vw;
 	margin-top: 0%;
 	margin-bottom: 0%;
+	margin-left: 0%;
+	margin-right: 0%;
 }
 
 .main_row_right img {
-	width: 100%;
-	height: auto;
+	width: 20vw;
+	height: 15vw;
 	margin-top: 0%;
 	margin-bottom: 0%;
+	margin-left: 0%;
+	margin-right: 0%;
 }
 
 .space2 {
@@ -218,85 +221,13 @@ img {
 }
 
 .main_img_container_right {
-	width: 15%;
-	height: auto;
-	float: right;
-	margin-right: 15%;
-	margin-left: 10%;
+	width: 20vw;
+	height: 15vw;
+	float: left;
+	margin-left: 5%;
+	margin-right: 5%;
 	margin-top: auto;
 	margin-bottom: auto;
-}
-
-
-
-
-
-.yhteystiedot {
-	padding-left: 3%;
-	padding-right: 3%;
-	padding-top: 1%;
-	color: white;
-	float: left;
-	width: 22%;
-	height: 100%;
-	margin-right: 15%;
-	letter-spacing: 1px;
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"
-}
-
-.yhteystiedot h3 {
-	text-align: center;
-	background-color: #5B5B5B;
-	border-radius: 25px;
-	padding: 3%;
-	color: #edd2a4 ; 
-}
-
-.yhteystiedot p {
-	color: white;
-	height: auto;
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-	background-color: #5B5B5B;
-	border-radius: 25px;
-	padding: 5%;
-}
-
-.kuvatsivussa {
-	width: 15%;
-	height: 100%;
-}
-
-.tietoa {
-	color: white;
-	float: left;
-	width: 35%;
-	height: 100%;
-	margin-right: 10%;
-	margin-left: 15%;
-	letter-spacing: 1px;
-	padding-left: 3%;
-	padding-right: 3%;
-	padding-top: 1%;
-
-}
-
-.tietoa h3 {
-	text-align: center;
-	background-color: #5B5B5B;
-	border-radius: 25px;
-	padding: 3%;
-	color: #edd2a4; 
-}
-
-.tietoa p {
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-	margin-bottom: 5%;
-	word-wrap: break-word;
-	height: auto;
-	background-color: #5B5B5B;
-	border-radius: 25px;
-	padding: 5%;
-	
 }
 
 footer {
@@ -493,7 +424,7 @@ footer {
 	}
 
 .flip-container, .front, .back {
-	width: 20vw;
+	width: 15vw;
 	height: 15vw;
 }
 
