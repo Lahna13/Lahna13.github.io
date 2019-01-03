@@ -5,9 +5,31 @@
 <title>Läx Home</title>
 	<link href="Kuvat/icon lx.ico" rel="icon">
 <link href="site.css" rel="stylesheet" type="text/css">
+
 </head>
 
 <body>
+	
+	<script>
+window.onscroll = function() {myFunction()};
+
+// Get the header
+var header = document.getElementById("myHeader");
+
+// Get the offset position of the navbar
+var sticky = header.offsetTop;
+
+// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+		
+	</script>
+	
 		<nav class="topvalikko">
 		 	 <ul>
 				<li><img src="Kuvat/Läx5.png" alt="" height="" width="" class="container_topkuva"></li>
