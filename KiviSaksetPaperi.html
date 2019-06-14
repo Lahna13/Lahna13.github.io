@@ -44,7 +44,95 @@
 
 <p id="viesti">Make your move!</p>
 
-<script src="KSP_JS.js" charset="utf-8"></script>
+<script charset="utf-8">
+	
+	let pelaajanPisteet = 0;
+	let tietokoneenPisteet = 0;
+	const pelaajanPiste_span = document.getElementById("pelajan-pisteet");
+	const tietokoneenPiste_span = document.getElementById("tietokoneen-pisteet");
+	const pisteTaulu_div = document.querySelector(".piste-taulu");
+	const tulos_div = document.querySelector(".tulos");
+	const kivi_div = document.getElementById("K");
+	const paperi_div = document.getElementById("P");
+	const sakset_div = document.getElementById("S");
+	
+	
+	function haeTietokoneenValinta() {
+		const vaihtoehdot = ['K', 'P', 'S'];
+		const randomNumero = Math.floor(Math.random() * 3);
+		return vaihtoehdot[randomNumero];
+	}
+	
+	function muutaSanaksi(kirjain) {
+		if (kirjain === "K") return "Kivi";
+		if (kirjain === "P") return "Paperi";
+		return "Sakset";
+	}
+	
+	function voitto(pelaajanValinta, tietokoneenValinta) {
+		pelaajanPisteet++;
+		pelaajanPiste_span.innerHTML = pelaajanPisteet;
+		tietokoneenPiste_span.innerHTML = tietokoneenPisteet;
+		const pieniKäyttäjänSana = "Gamer".fontsize(3).sub();
+		const pieniTietokoneenSana = "Enemey".fontsize(3).sub();
+		tulos_div.innerHTML = `${muutaSanaksi(pelaajanValinta)}${pieniKäyttäjänSana} voittaa ${muutaSanaksi(pieniTietokoneenSana)}${pieniTietokoneenSana}. EZ4ENCE!`
+	}
+	
+	function häviö(pelaajanValinta, tietokoneenValinta) {
+		tietokoneenPisteet++;
+		pelaajanPiste_span.innerHTML = pelaajanPisteet;
+		tietokoneenPiste_span.innerHTML = tietokoneenPisteet;
+		const pieniKäyttäjänSana = "Gamer".fontsize(3).sub();
+		const pieniTietokoneenSana = "Enemey".fontsize(3).sub();
+		tulos_div.innerHTML = `${muutaSanaksi(pelaajanValinta)}${pieniKäyttäjänSana} häviää ${muutaSanaksi(pieniTietokoneenSana)}${pieniTietokoneenSana}. GitGuD!`
+	}
+	
+	function tasaPeli(pelaajanValinta, tietokoneenValinta) {
+		const pieniKäyttäjänSana = "Gamer".fontsize(3).sub();
+		const pieniTietokoneenSana = "Enemey".fontsize(3).sub();
+		tulos_div.innerHTML = `${muutaSanaksi(pelaajanValinta)}${pieniKäyttäjänSana} tasoittaa ${muutaSanaksi(pieniTietokoneenSana)}${pieniTietokoneenSana}. Tasapeli!`
+	}
+	
+	function peli(pelaajanValinta) {
+		const tietokoneenValinta = haeTietokoneenValinta();
+		switch (pelaajanValinta + tietokoneenValinta) {
+			case "KS":
+			case "PK":
+			case "SP":
+				voitto();
+				break;
+				
+			case "KP":
+			case "PS":
+			case "SK":
+				häviö();
+				break;
+				
+			case "KK":
+			case "PP":
+			case "SS":
+				tasaPeli();
+				break;	
+		}
+	}
+	
+	function main() {
+			kivi_div.addEventListener('click', function() {
+				peli("K");
+			})
+		
+			paperi_div.addEventListener('click', function() {
+				peli("P");
+		})
+		
+			sakset_div.addEventListener('click', function() {
+				peli("S");
+		})
+	}
+	main();
+		
+		
+	</script>
 	
   </body>
 </html>

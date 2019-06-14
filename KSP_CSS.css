@@ -53,6 +53,7 @@ header > h1 {
 }
 
 .tulos {
+	text-align: center;
 	font-size: 40px;
 	color: white;
 }
