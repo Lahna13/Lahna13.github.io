@@ -1,11 +1,29 @@
 <!doctype html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>New Design?</title>
-<link href="New_index_css.css" rel="stylesheet" type="text/css">
-</head>
-
 <body>
-</body>
+    <input type="text" id="Player1">
+    <input type="text" id="Player2">
+	<input type="text" id="Player3">
+    <input type="text" id="Player4">
+	<input type="text" id="Player5">
+   
+
+    <input type ="button" onclick="average()" value="average">
+    <input type="text" id ="avg">
+    <script>
+    function average(){
+		
+        var a=parseInt(document.getElementById("Player1").value);
+        var b=parseInt(document.getElementById("Player2").value);
+		var c=parseInt(document.getElementById("Player3").value);
+        var d=parseInt(document.getElementById("Player4").value);
+		var e=parseInt(document.getElementById("Player5").value);
+		
+		const arr = [a, b, c, d, e];
+		
+        var afinal=((a+b+c+d+e)/arr.length);
+            document.getElementById('avg').value=afinal;
+        }
+	</script>  
+    </body>
 </html>
