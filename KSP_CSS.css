@@ -11,7 +11,7 @@ body {
 	background-color: #25272E;
 }
 
-header {	
+header {
 	background: white;
 }
 
@@ -52,7 +52,7 @@ header > h1 {
 	right: 955px;
 }
 
-.tulos {
+#tulos {
 	text-align: center;
 	font-size: 40px;
 	color: white;
