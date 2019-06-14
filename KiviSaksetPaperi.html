@@ -62,20 +62,18 @@
 		const randomNumero = Math.floor(Math.random() * 3);
 		return vaihtoehdot[randomNumero];
 	}
-	
 	function muutaSanaksi(kirjain) {
-		if (kirjain === "K") return "Kivi";
-		if (kirjain === "P") return "Paperi";
-		else return "Sakset";
+		if (kirjain === "K") return "Rock";
+        if (kirjain === "P") return "Paper";
+        return "Siccors";
 	}
-	
 	function voitto(pelaajanValinta, tietokoneenValinta) {
 		pelaajanPisteet++;
 		pelaajanPiste_span.innerHTML = pelaajanPisteet;
 		tietokoneenPiste_span.innerHTML = tietokoneenPisteet;
 		const pieniKäyttäjänSana = "Gamer".fontsize(3).sup();
-		const pieniTietokoneenSana = "Enemey".fontsize(3).sup();
-		tulos_div.innerHTML = `${muutaSanaksi(pelaajanValinta)}${pieniKäyttäjänSana} voittaa ${muutaSanaksi(pieniTietokoneenSana)}${pieniTietokoneenSana}. EZ4ENCE!`
+		const pieniTietokoneenSana = "Enemy".fontsize(3).sup();
+		tulos_div.innerHTML = `${muutaSanaksi(pelaajanValinta)}${pieniKäyttäjänSana} beats ${muutaSanaksi(pieniTietokoneenSana)}${pieniTietokoneenSana}. EZ4ENCE!`
 	}
 	
 	function häviö(pelaajanValinta, tietokoneenValinta) {
@@ -83,14 +81,14 @@
 		pelaajanPiste_span.innerHTML = pelaajanPisteet;
 		tietokoneenPiste_span.innerHTML = tietokoneenPisteet;
 		const pieniKäyttäjänSana = "Gamer".fontsize(3).sup();
-		const pieniTietokoneenSana = "Enemey".fontsize(3).sup();
-		tulos_div.innerHTML = `${muutaSanaksi(pelaajanValinta)}${pieniKäyttäjänSana} häviää ${muutaSanaksi(pieniTietokoneenSana)}${pieniTietokoneenSana}. GitGuD!`
+		const pieniTietokoneenSana = "Enemy".fontsize(3).sup();
+		tulos_div.innerHTML = `${muutaSanaksi(pelaajanValinta)}${pieniKäyttäjänSana} loses to ${muutaSanaksi(pieniTietokoneenSana)}${pieniTietokoneenSana}. GitGuD!`
 	}
 	
 	function tasaPeli(pelaajanValinta, tietokoneenValinta) {
 		const pieniKäyttäjänSana = "Gamer".fontsize(3).sup();
-		const pieniTietokoneenSana = "Enemey".fontsize(3).sup();
-		tulos_div.innerHTML = `${muutaSanaksi(pelaajanValinta)}${pieniKäyttäjänSana} tasoittaa ${muutaSanaksi(pieniTietokoneenSana)}${pieniTietokoneenSana}. Tasapeli!`
+		const pieniTietokoneenSana = "Enemy".fontsize(3).sup();
+		tulos_div.innerHTML = `${muutaSanaksi(pelaajanValinta)}${pieniKäyttäjänSana} equals ${muutaSanaksi(pieniTietokoneenSana)}${pieniTietokoneenSana}. Draws!`
 	}
 	
 	function peli(pelaajanValinta) {
