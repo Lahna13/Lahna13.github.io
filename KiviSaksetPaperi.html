@@ -66,15 +66,15 @@
 	function muutaSanaksi(kirjain) {
 		if (kirjain === "K") return "Kivi";
 		if (kirjain === "P") return "Paperi";
-		return "Sakset";
+		else return "Sakset";
 	}
 	
 	function voitto(pelaajanValinta, tietokoneenValinta) {
 		pelaajanPisteet++;
 		pelaajanPiste_span.innerHTML = pelaajanPisteet;
 		tietokoneenPiste_span.innerHTML = tietokoneenPisteet;
-		const pieniKäyttäjänSana = "Gamer".fontsize(3).sub();
-		const pieniTietokoneenSana = "Enemey".fontsize(3).sub();
+		const pieniKäyttäjänSana = "Gamer".fontsize(3).sup();
+		const pieniTietokoneenSana = "Enemey".fontsize(3).sup();
 		tulos_div.innerHTML = `${muutaSanaksi(pelaajanValinta)}${pieniKäyttäjänSana} voittaa ${muutaSanaksi(pieniTietokoneenSana)}${pieniTietokoneenSana}. EZ4ENCE!`
 	}
 	
@@ -82,14 +82,14 @@
 		tietokoneenPisteet++;
 		pelaajanPiste_span.innerHTML = pelaajanPisteet;
 		tietokoneenPiste_span.innerHTML = tietokoneenPisteet;
-		const pieniKäyttäjänSana = "Gamer".fontsize(3).sub();
-		const pieniTietokoneenSana = "Enemey".fontsize(3).sub();
+		const pieniKäyttäjänSana = "Gamer".fontsize(3).sup();
+		const pieniTietokoneenSana = "Enemey".fontsize(3).sup();
 		tulos_div.innerHTML = `${muutaSanaksi(pelaajanValinta)}${pieniKäyttäjänSana} häviää ${muutaSanaksi(pieniTietokoneenSana)}${pieniTietokoneenSana}. GitGuD!`
 	}
 	
 	function tasaPeli(pelaajanValinta, tietokoneenValinta) {
-		const pieniKäyttäjänSana = "Gamer".fontsize(3).sub();
-		const pieniTietokoneenSana = "Enemey".fontsize(3).sub();
+		const pieniKäyttäjänSana = "Gamer".fontsize(3).sup();
+		const pieniTietokoneenSana = "Enemey".fontsize(3).sup();
 		tulos_div.innerHTML = `${muutaSanaksi(pelaajanValinta)}${pieniKäyttäjänSana} tasoittaa ${muutaSanaksi(pieniTietokoneenSana)}${pieniTietokoneenSana}. Tasapeli!`
 	}
 	
