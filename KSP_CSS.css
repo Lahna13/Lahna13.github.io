@@ -43,13 +43,13 @@ header > h1 {
 #pelaajan-merkki {
 	position: fixed;
 	top: 85px;
-	left: 955px;
+	left: 44%;
 }
 
 #tietokoneen-merkki {
 	position: fixed;
 	top: 85px;
-	right: 955px;
+	right: 44%;
 }
 
 #tulos {
