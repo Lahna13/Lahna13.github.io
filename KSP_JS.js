@@ -87,6 +87,4 @@
 	
 	main();
 	
-		console.log(haeTietokoneenValinta());
-		console.log(convertToWord());
 		
