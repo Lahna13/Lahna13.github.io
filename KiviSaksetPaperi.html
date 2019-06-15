@@ -22,7 +22,7 @@
 
   <div id="tulos" class="tulos">
     <p>
-      Paperi peittää kiven. Sinä voitat!
+      Play a game of RPS by clicking one of the three choices!
     </p>
   </div>
 
@@ -58,69 +58,60 @@
 	
 	
 	function haeTietokoneenValinta() {
-		const vaihtoehdot = ["r", "p", "s"];
+		const vaihtoehdot = ['r', 'p', 's'];
 		const randomNumero = Math.floor(Math.random() * 3);
 		return vaihtoehdot[randomNumero];
 	}
 	
-	function muutaSanaksi(kirjain) {
-		 switch (kirjain) {
-          case 'r':
-            return "Rock"
-            break;
-				 
-          case 'p':
-            return "Paper"
-            break;
-				 
-          default:
-          return "Scissors"
-        }
+	function convertToWord(letter) {
+	  if (letter === "r") return "Rock";
+	  if (letter === "p") return "Paper";
+	  return "Scissors";
 	}
 	
-	function voitto(pelaajanValinta, tietokoneenValinta) {
+		function voitto(pelaajanValinta, tietokoneenValinta) {
 		pelaajanPisteet++;
 		pelaajanPiste_span.innerHTML = pelaajanPisteet;
 		tietokoneenPiste_span.innerHTML = tietokoneenPisteet;
-		const pieniKäyttäjänSana = "Gamer".fontsize(3).sup();
+		const pieniKayttajanSana = "Gamer".fontsize(3).sup();
 		const pieniTietokoneenSana = "Enemy".fontsize(3).sup();
-		tulos_div.innerHTML = `${muutaSanaksi(pelaajanValinta)}${pieniKäyttäjänSana} beats ${muutaSanaksi(pieniTietokoneenSana)}${pieniTietokoneenSana}. You win!`
+		tulos_div.innerHTML = `${convertToWord(pelaajanValinta)}${pieniKayttajanSana} beats ${convertToWord(tietokoneenValinta)}${pieniTietokoneenSana}. You win!`
 	}
 	
-	function häviö(pelaajanValinta, tietokoneenValinta) {
+	function havio(pelaajanValinta, tietokoneenValinta) {
 		tietokoneenPisteet++;
 		pelaajanPiste_span.innerHTML = pelaajanPisteet;
 		tietokoneenPiste_span.innerHTML = tietokoneenPisteet;
-		const pieniKäyttäjänSana = "Gamer".fontsize(3).sup();
+		const pieniKayttajanSana = "Gamer".fontsize(3).sup();
 		const pieniTietokoneenSana = "Enemy".fontsize(3).sup();
-		tulos_div.innerHTML = `${muutaSanaksi(pelaajanValinta)}${pieniKäyttäjänSana} loses to ${muutaSanaksi(pieniTietokoneenSana)}${pieniTietokoneenSana}. You lose!`
+		tulos_div.innerHTML = `${convertToWord(pelaajanValinta)}${pieniKayttajanSana} loses to ${convertToWord(tietokoneenValinta)}${pieniTietokoneenSana}. You lose!`
 	}
 	
 	function tasaPeli(pelaajanValinta, tietokoneenValinta) {
-		const pieniKäyttäjänSana = "Gamer".fontsize(3).sup();
+		const pieniKayttajanSana = "Gamer".fontsize(3).sup();
 		const pieniTietokoneenSana = "Enemy".fontsize(3).sup();
-		tulos_div.innerHTML = `${muutaSanaksi(pelaajanValinta)}${pieniKäyttäjänSana} equals ${muutaSanaksi(pieniTietokoneenSana)}${pieniTietokoneenSana}. Draw!`
+		tulos_div.innerHTML = `${convertToWord(pelaajanValinta)}${pieniKayttajanSana} equals ${convertToWord(tietokoneenValinta)}${pieniTietokoneenSana}. Draw!`
 	}
 	
-	function peli(pelaajanValinta) {
+		function peli(pelaajanValinta) {
 		const tietokoneenValinta = haeTietokoneenValinta();
 		switch (pelaajanValinta + tietokoneenValinta) {
 			case "rs":
 			case "pr":
 			case "sp":
-				voitto();
+				voitto(pelaajanValinta, tietokoneenValinta);
 				break;
 				
 			case "rp":
 			case "ps":
 			case "sr":
-				häviö();
+				havio(pelaajanValinta, tietokoneenValinta);
 				break;
 				
 			case "rr":
 			case "pp":
 			case "ss":
-				tasaPeli();
+				tasaPeli(pelaajanValinta, tietokoneenValinta);
 				break;	
 		}
 	}
@@ -142,7 +133,7 @@
 	main();
 	
 		console.log(haeTietokoneenValinta());
-		console.log(muutaSanaksi());
+		console.log(convertToWord());
 		
 	</script>
 	
