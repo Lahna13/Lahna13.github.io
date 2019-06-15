@@ -24,7 +24,8 @@ header > h1 {
 .piste-taulu {
 	margin: 20px auto;
 	border: 3px solid white;
-	border-radius: 4px;text-align: center;
+	border-radius: 4px;
+	text-align: center;
 	width: 200px;
 	color: white;
 	font-size: 35px;
