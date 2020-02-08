@@ -8,15 +8,19 @@
 }
 
 body {
-	background-color: #25272E;
+	background-color: white;
 }
 
 header {
 	background: white;
+	align-items: center;
+	align-content: center;
+	text-align: center;
 }
 
 header > h1 {
-	color: #25272E;
+	font-size: large;
+	color: green;
 	text-align: center;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 }
