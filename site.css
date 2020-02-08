@@ -230,10 +230,10 @@ footer {
 }
 
 .TestTabStealth {
-	color: #000;
+	color: black;
 }
 
 .TestTabStealth:hover {
-	color: #00FF24;
+	color: cyan;
 }
 
